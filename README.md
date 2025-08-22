@@ -1,8 +1,9 @@
-🚦 Applied AI Lab – Project 3: Object Detection with YOLO
+# 🚦 Applied AI Lab – Project 3: Object Detection with YOLO
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project is part of the Applied AI Lab series (Project 3/6).
+This project is part of the Applied AI Lab series 
+Project 3/6
 The goal was to build an object detection model using YOLO to detect vehicles and traffic objects in images and videos.
 
 Key steps included:
@@ -21,26 +22,24 @@ Using data augmentation to improve performance and generalization.
 
 ---
 
-📂 Dataset
+## 📂 Dataset
 
-DhakaAI – Dhaka-based Traffic Detection Dataset
+DhakaAI – [https://www.kaggle.com/datasets/rifat963/dhakaai-dhaka-based-traffic-detection-dataset]
 
 Extracted frames from YouTube traffic videos (Dhaka, >5 minutes).
-
 
 Dataset includes:
 
 Pre-annotated images with XML files.
-
 Additional custom categories: three-wheelers, garbage vans, SUVs.
 
 
 
 ---
 
-⚙️ Methods & Workflow
+## ⚙️ Methods & Workflow
 
-1. Data Organization
+### 1. Data Organization
 
 Loaded images and paired them with annotations.
 
@@ -48,7 +47,7 @@ Separated data into training and validation sets.
 
 
 
-2. Video Processing
+### 2. Video Processing
 
 Extracted frames from YouTube videos using pytubefix.
 
@@ -56,7 +55,7 @@ Converted video frames into dataset samples.
 
 
 
-3. YOLO Training
+### 3. YOLO Training
 
 Used YOLO model for object detection.
 
@@ -71,7 +70,7 @@ Wrong class
 
 
 
-4. Data Augmentation
+### 4. Data Augmentation
 
 Applied transformations with TorchVision V2:
 
@@ -84,11 +83,10 @@ ColorJitter
 
 Skipped VerticalFlip (not realistic for cars on streets).
 
-👉 See detailed Data Augmentation explanation here.
+Post that I explain Data Augmentation:
+👉 
 
-
-
-5. Model Deployment
+### 5. Model Deployment
 
 Applied trained YOLO model on images and videos of Istanbul traffic.
 
@@ -100,40 +98,15 @@ Successfully detected vehicles in real-world traffic scenes.
 
 ---
 
-📊 Results
+## 📊 Results
 
 Improved generalization with augmentation.
 
 Successfully detected traffic objects in Istanbul datasets.
 
 
-🔎 Example Outputs
+### 🔎 Example Outputs
 
-(Add sample images or gifs here)
-
-outputs/detection_samples/
-
-
----
-
-🛠️ Installation & Usage
-
-1. Clone the Repository
-
-git clone https://github.com/YOUR-USERNAME/Applied-AI-Lab-Project3-YOLO.git
-cd Applied-AI-Lab-Project3-YOLO
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-3. Run Training
-
-python src/training.py
-
-4. Run Inference (Image/Video Detection)
-
-python src/inference.py --input path/to/image_or_video
 
 
 ---
@@ -150,8 +123,3 @@ The role of data augmentation in improving predictions.
 
 Adding new objects into a YOLO model.
 
-
-
----
-
-📎 References
