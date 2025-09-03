@@ -8,6 +8,7 @@ The goal was to build an object detection model using YOLO to detect vehicles an
 
 Some Output (detected images):
 
+https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/output_task.mp4
 https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/b8ea6dd9130d82a3b6163bc3aaa823d3.jpg
 https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/ca746f20cdb24209cc407a88d42eb912.jpg
 https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/5abd8287f8cc969e0644f73cf40142d5.jpg
