@@ -92,7 +92,7 @@ ColorJitter
 Skipped VerticalFlip (not realistic for cars on streets).
 
 Post that I explain Data Augmentation:
-👉 
+👉 [https://www.linkedin.com/posts/al-zahraa-mohamed-608360247_dataaugmentation-deeplearning-machinelearning-activity-7363202717504229376-zusK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0ZPWgBtmMM-jRkxTAI0AP7y9wAWa1ig2w]
 
 ### 5. Model Deployment
 
