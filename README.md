@@ -6,6 +6,13 @@ This project is part of the Applied AI Lab series
 Project 3/6
 The goal was to build an object detection model using YOLO to detect vehicles and traffic objects in images and videos.
 
+Some Output (detected images):
+
+Object-Detection-with-YOLO/ca746f20cdb24209cc407a88d42eb912.jpg
+Object-Detection-with-YOLO/5abd8287f8cc969e0644f73cf40142d5.jpg
+Object-Detection-with-YOLO/8eb6ae806d383a68998e792fa8941d34.jpg
+Object-Detection-with-YOLO/b8ea6dd9130d82a3b6163bc3aaa823d3.jpg
+
 Key steps included:
 
 Organizing datasets (images + XML annotations).
