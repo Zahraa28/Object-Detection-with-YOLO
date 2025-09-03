@@ -24,7 +24,7 @@ Using data augmentation to improve performance and generalization.
 
 ## 📂 Dataset
 
-DhakaAI – [https://www.kaggle.com/datasets/rifat963/dhakaai-dhaka-based-traffic-detection-dataset]
+[DhakaAI Dataset](https://www.kaggle.com/datasets/rifat963/dhakaai-dhaka-based-traffic-detection-dataset)
 
 Extracted frames from YouTube traffic videos (Dhaka, >5 minutes).
 
@@ -104,23 +104,24 @@ Successfully detected traffic objects in Istanbul datasets.
 
 ### 🔎 Example Outputs
 
-https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/output_task.mp4
-https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/b8ea6dd9130d82a3b6163bc3aaa823d3.jpg
-https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/ca746f20cdb24209cc407a88d42eb912.jpg
-https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/5abd8287f8cc969e0644f73cf40142d5.jpg
-https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/8eb6ae806d383a68998e792fa8941d34.jpg
+- [MP4 detection video](https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/output_task.mp4)  
+- [Sample image 1](https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/b8ea6dd9130d82a3b6163bc3aaa823d3.jpg)  
+- [Sample image 2](https://github.com/Zahraa28/Object-Detection-with-YOLO/blob/main/ca746f20cdb24209cc407a88d42eb912.jpg)
+
 
 ---
 
 📚 Key Learnings
 
-How to organize datasets with images + annotations.
+- Dataset organization (images + XML)
+- YOLO for object detection
+- Loss function components: missing object, wrong location, wrong class
+- Data augmentation strategies
+- Adding new object classes
 
-Using YOLO for object detection tasks.
 
-Understanding loss functions in YOLO.
+---
 
-The role of data augmentation in improving predictions.
-
-Adding new objects into a YOLO model.
-
+##  Contact
+Zahraa  
+📧 alzahramohamed@gmail.com
